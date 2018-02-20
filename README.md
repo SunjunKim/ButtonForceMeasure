@@ -26,3 +26,8 @@ Works with FSS 1500 sensor & 626 Bearing
  - It connects to the last serial port listed in the system (works with the most setup)
  - It first find the idle value (counting stabilized signal within <2 deviation)
  - After detecting a button press (other than idle value), it visualizes it with a graph (with some lead time before and after the button press).
+
+ # Accelerometer
+ - Accelerometer (Spartkfun ADXL335 breakout board) added to A2(X-axis), A3(Y-axis), A4(Z-axis)
+ - Cx, Cy, Cz filtering capacitors --> set to 0.01uF (=500Hz bandwidth)
+ - Fingertip mount ()
